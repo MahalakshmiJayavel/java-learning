@@ -13,22 +13,20 @@ class Book {
 
 // Whole class (has-a Book)
 class Library {
-    Book book;  // Aggregation
+    Book book;  
 
     Library(Book book) {
         this.book = book;
     }
 
     void displayBook() {
-        book.showTitle(); // Using Book's method
+        book.showTitle(); 
     }
 }
-
-// Main class
 public class Aggregation {
     public static void main(String[] args) {
-        Book b = new Book("Java Basics"); // Independent object
-        Library libraryBook = new Library(b);     // Library HAS-A Book
+        Book b = new Book("Java Basics"); 
+        Library libraryBook = new Library(b);     
 
         libraryBook.displayBook();
     }

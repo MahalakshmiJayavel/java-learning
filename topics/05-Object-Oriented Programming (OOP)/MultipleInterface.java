@@ -1,14 +1,11 @@
-// First interface
 interface Flyable {
     void fly();
 }
 
-// Second interface
 interface Swimmable {
     void swim();
 }
 
-// Class implementing both interfaces
 class Bird implements Flyable, Swimmable {
     public void fly() {
         System.out.println("Bird is flying");

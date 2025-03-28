@@ -5,14 +5,13 @@ class Heart {
 }
 
 class Person {
-    private Heart heart;  // Composition: Person has a Heart
+    private Heart heart;  
 
     Person() {
-        heart = new Heart();  // Heart is created with the Person
-    }
+        heart = new Heart();  
 
     void live() {
-        heart.beat();  // Person uses Heart
+        heart.beat();  
         System.out.println("Person is alive!");
     }
 }

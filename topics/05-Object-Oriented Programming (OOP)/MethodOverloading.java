@@ -1,11 +1,9 @@
 public class MethodOverloading {
 
-        // Method 1: Add two integers
         public int add(int a, int b) {
             return a + b;
         }
     
-        // Method 2: Add three integers
         public int add(int a, int b, int c) {
             return a + b + c;
         }

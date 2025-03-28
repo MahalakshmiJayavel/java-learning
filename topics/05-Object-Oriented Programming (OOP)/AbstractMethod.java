@@ -1,5 +1,5 @@
      abstract class Animal {
-        abstract void sound(); // Abstract method
+        abstract void sound(); 
     }
     
     class Dog extends Animal {

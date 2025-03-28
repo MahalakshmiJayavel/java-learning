@@ -17,7 +17,7 @@ class Person implements Cloneable {
 public class Clone {
     public static void main(String[] args) throws CloneNotSupportedException {
         Person p1 = new Person("Maha");
-        Person p2 = p1.clone();  // Clone p1 into p2
+        Person p2 = p1.clone();  
 
         p1.show();
         p2.show();

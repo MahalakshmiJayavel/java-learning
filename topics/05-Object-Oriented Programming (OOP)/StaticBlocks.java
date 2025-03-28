@@ -2,7 +2,6 @@ public class StaticBlocks {
 
     static int number;
 
-    // Static block runs before main()
     static {
         number = 10;
         System.out.println( number);
