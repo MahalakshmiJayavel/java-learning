@@ -3,7 +3,7 @@
 public class RotateArrays {
     public static void main(String[] args) {
         int[] arr = {10, 20, 30, 40, 50};
-        int positions = 3; // Number of positions to rotate
+        int positions = 3; 
 
         int length = arr.length;
         int[] rotated = new int[length];
