@@ -9,7 +9,6 @@ public void method() {
 
         public void methodA() {
             int num2 = 21;
-            //System.out.println(num+num1);(wont execute)cause num1 is local variable
             System.out.println(num*num2);
         }
 
