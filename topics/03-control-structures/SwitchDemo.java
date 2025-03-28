@@ -1,9 +1,8 @@
 public class SwitchDemo {
     public static void main(String[] args) {
-        int grade = 78; // Input: Student's numerical grade
-        char gradeCategory; // Variable to store letter grade
+        int grade = 78; 
+        char gradeCategory; 
 
-        // Assigning grade category based on the numerical grade
         if (grade >= 90) 
             gradeCategory = 'A';
         else if (grade >= 80) 
@@ -15,7 +14,6 @@ public class SwitchDemo {
         else 
             gradeCategory = 'F';
 
-        // Using switch-case to print messages based on grade category
         switch (gradeCategory) {
             case 'A':
                 System.out.println("Outstanding");
