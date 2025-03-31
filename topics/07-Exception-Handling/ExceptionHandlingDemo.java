@@ -1,25 +1,24 @@
-import java.util.Scanner; // Importing Scanner for user input
+import java.util.Scanner; 
 
 public class ExceptionHandlingDemo {
     public static void main(String[] args) {
-        Scanner scan = new Scanner(System.in); // Creating Scanner object
+        Scanner scan = new Scanner(System.in); 
 
-        // Taking user input
         System.out.print("Enter first number (a): ");
         int a = scan.nextInt();
         System.out.print("Enter second number (b): ");
         int b = scan.nextInt();
 
-        int c = 0; // Variable to store division result
+        int c = 0; 
 
         try {
-            c = a / b; // Attempting division
-        } catch (ArithmeticException e) { // Handling division by zero
+            c = a / b;
+        } catch (ArithmeticException e) { 
             System.out.println("Arithmetic Exception: Cannot divide by zero.");
         }
 
-        System.out.println("Result: " + c); // Printing result (c will remain 0 if exception occurs)
+        System.out.println("Result: " + c); 
 
-        scan.close(); // Closing scanner to prevent resource leak
+        scan.close(); 
     }
 }
