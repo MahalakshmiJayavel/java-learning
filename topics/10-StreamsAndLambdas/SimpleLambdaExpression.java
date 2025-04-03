@@ -7,7 +7,7 @@ public class SimpleLambdaExpression {
         System.out.println("sum = " + result);
     }
 
-    @FunctionalInterface
+    @FunctionalInterfaceDemo
     interface AddNumbers {
         int sum(int a, int b); 
     }
