@@ -1,4 +1,4 @@
-import java.util.Optional;  // Necessary import for Optional
+import java.util.Optional;  
 
 public class OptionalDemo {
     public static void main(String[] args) {
